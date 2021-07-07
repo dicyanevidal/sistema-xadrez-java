@@ -1,9 +1,13 @@
 package aplicacao;
 
+import tabuleiro.Posicao;
+
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Posicao posicao = new Posicao(5, 3);
+		System.out.println(posicao);
 
 	}
 
